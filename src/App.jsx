@@ -39,7 +39,7 @@ export default function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://civic-assist-backend-production.up.railway.app', {
+      const response = await fetch('https://civic-assist-backend-production.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
