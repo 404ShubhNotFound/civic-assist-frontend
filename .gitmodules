@@ -1,0 +1,3 @@
+[submodule "path/to/folde"]
+	path = path/to/folde
+	url = https://github.com/404ShubhNotFound/greenassist
